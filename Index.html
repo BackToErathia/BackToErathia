@@ -1,0 +1,97 @@
+<html>
+<head>
+<style>
+/* Style the header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  width: 750px;
+  height: 110px;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+/* Style the logo */
+.logo {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+/* Style the menu */
+.menu {
+  float: right;
+  list-style: none;
+  margin: 0;
+}
+
+/* Style the menu items */
+.menu li {
+  display: inline-block;
+  margin: 10px;
+}
+
+/* Style the menu links */
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Style the active link */
+.menu a.active {
+  font-weight: bold;
+}
+
+/* Style the content */
+.content {
+  padding: 120px 0; /* Add some top padding to avoid the header */
+  width: 750px;
+  margin: 0 auto;
+}
+
+/* Style the titles */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+/* Style the background image */
+body {
+  background-image: url("background.jpg"); /* Get the background image from the project folder */
+  background-attachment: fixed; /* Make the background image fixed */
+  background-size: cover; /* Make the background image cover the whole page */
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <img class="logo" src="logo.png" alt="Logo"> <!-- Logo on the left side -->
+  <ul class="menu"> <!-- Menu on the upper right corner -->
+    <li><a class="active" href="#title1">Title 1</a></li>
+    <li><a href="#title2">Title 2</a></li>
+    <li><a href="#title3">Title 3</a></li>
+    <li><a href="#title4">Title 4</a></li>
+  </ul>
+</div>
+<div class="content">
+  <div id="title1" class="title">Title 1</div> <!-- Create 4 titles on the page -->
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis leo eu lorem consequat fringilla. Quisque vitae lacus vitae eros luctus tincidunt. Fusce quis nisl sit amet elit sagittis ullamcorper. Donec vitae diam ut nisi aliquet tincidunt. Morbi quis leo quis augue tincidunt rutrum. Sed quis nunc vitae quam tincidunt tincidunt. Curabitur quis nisl quis lorem aliquet lacinia. Cras quis nisl quis lorem aliquet lacinia. Cras quis nisl quis lorem aliquet lacinia.</p> <!-- Lorem ipsum text for each title -->
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis leo eu lorem consequat fringilla. Quisque vitae lacus vitae eros luctus tincidunt. Fusce quis nisl sit amet elit sagittis ullamcorper. Donec vitae diam ut nisi aliquet tincidunt. Morbi quis leo quis augue tincidunt rutrum. Sed quis nunc vitae quam tincidunt tincidunt. Curabitur quis nisl quis lorem aliquet lacinia. Cras quis nisl quis lorem aliquet lacinia. Cras quis nisl quis lorem aliquet lacinia.</p>
+  <div id="title2" class="title">Title 2</div>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis leo eu lorem consequat fringilla. Quisque vitae lacus vitae eros luctus tincidunt. Fusce quis nisl sit amet elit sagittis ullamcorper. Donec vitae diam ut nisi aliquet tincidunt. Morbi quis leo quis augue tincidunt rutrum. Sed quis nunc vitae quam tincidunt tincidunt. Curabitur quis nisl quis lorem aliquet lacinia. Cras quis nisl quis lorem aliquet lacinia. Cras quis nisl quis lorem aliquet lacinia.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis leo eu lorem consequat fringilla. Quisque vitae lacus vitae eros luctus tincidunt. Fusce quis nisl sit amet elit sagittis ullamcorper. Donec vitae diam ut nisi aliquet tincidunt. Morbi quis leo quis augue tincidunt rutrum. Sed quis nunc vitae quam tincidunt tincidunt. Curabitur quis nisl quis lorem aliquet lacinia. Cras quis nisl quis lorem aliquet lacinia. Cras quis nisl quis lorem aliquet lacinia.</p>
+  <div id="title3" class="title">Title 3</div>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis leo eu lorem consequat fringilla. Quisque vitae lacus vitae eros luctus tincidunt. Fusce quis nisl sit amet elit sagittis ullamcorper. Donec vitae diam ut nisi aliquet tincidunt. Morbi quis leo quis augue tincidunt rutrum. Sed quis nunc vitae quam tincidunt tincidunt. Curabitur quis nisl quis lorem aliquet lacinia. Cras quis nisl quis lorem aliquet lacinia. Cras quis nisl quis lorem aliquet lacinia.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis leo eu lorem consequat fringilla. Quisque vitae lacus vitae eros luctus tincidunt. Fusce quis nisl sit amet elit sagittis ullamcorper. Donec vitae diam ut nisi aliquet tincidunt. Morbi quis leo quis augue tincidunt rutrum. Sed quis nunc vitae quam tincidunt tincidunt. Curabitur quis nisl quis lorem aliquet lacinia. Cras quis nisl quis lorem aliquet lacinia. Cras quis nisl quis lorem aliquet lacinia.</p>
+  <div id="title4" class="title">Title 4</div>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis leo eu lorem consequat fringilla. Quisque vitae lacus vitae eros luctus tincidunt. Fusce quis nisl sit amet elit sagittis ullamcorper. Donec vitae diam ut nisi aliquet tincidunt. Morbi quis leo quis augue tincidunt rutrum. Sed quis nunc vitae quam tincidunt tincidunt. Curabitur quis nisl quis lorem aliquet lacinia. Cras quis nisl quis lorem aliquet lacinia. Cras quis nisl quis lorem aliquet lacinia.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis leo eu lorem consequat fringilla. Quisque vitae lacus vitae eros luctus tincidunt. Fusce quis nisl sit amet elit sagittis ullamcorper. Donec vitae diam ut nisi aliquet tincidunt. Morbi quis leo quis augue tincidunt rutrum. Sed quis nunc vitae quam tincidunt tincidunt. Curabitur quis nisl quis lorem aliquet lacinia. Cras quis nisl quis lorem aliquet lacinia. Cras quis nisl quis lorem aliquet lacinia.</p>
+</div>
+</body>
+</html>
